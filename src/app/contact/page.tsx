@@ -59,7 +59,7 @@ export default function Contact() {
                 real products
               </span>
             </h1>
-            <p className="mt-6 max-w-2xl mx-auto text-lg text-slate-600 dark:text-slate-400 mb-10">
+            <p className="mt-6 max-w-2xl mx-auto text-lg text-slate-600 dark:text-slate-400 mb-10 text-center">
               Whether it’s a question, collaboration, or feedback — feel free to
               reach out. 
             </p>

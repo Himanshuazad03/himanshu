@@ -82,10 +82,10 @@ const featuredProjects = [
 export default function Home() {
   return (
     <PageTransition>
-      <div className="flex flex-col items-center justify-center min-h-[90vh] w-full mt-16 space-y-40 mb-28 px-6 lg:px-16 overflow-hidden">
+      <div className="flex flex-col items-center justify-center min-h-[90vh] w-full mt-16 space-y-40 mb-28 px-4 lg:px-16 overflow-hidden">
         
         {/* --- HERO SECTION --- */}
-        <section className="relative flex flex-col items-center text-center space-y-10 w-full max-w-6xl z-10">
+        <section className="relative flex flex-col items-center text-center space-y-10 w-full max-w-7xl z-10">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] sm:w-[500px] h-[300px] sm:h-[500px] bg-blue-600/20 blur-[120px] rounded-full -z-10 pointer-events-none" />
           
           <motion.div
@@ -414,7 +414,7 @@ export default function Home() {
             <div className="absolute inset-0 border border-white/10 rounded-3xl group-hover:border-blue-500/30 transition-colors duration-700 pointer-events-none" />
             
             <div className="relative z-10 space-y-6 max-w-2xl mx-auto">
-               <h2 className="text-4xl md:text-6xl font-extrabold tracking-tight text-white drop-shadow-lg">
+               <h2 className="text-2xl md:text-4xl lg:text-6xl font-extrabold tracking-tight text-white drop-shadow-lg">
                  Let's Build Something <br className="hidden sm:block" />
                  <span className="text-gradient">Impactful Together</span>
                </h2>

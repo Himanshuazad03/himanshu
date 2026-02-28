@@ -93,10 +93,10 @@ function ProjectCard({ project, index }: { project: any; index: number }) {
                   <span className="mt-2 h-2 w-2 rounded-full bg-cyan-400" />
 
                   <div>
-                    <p className="text-lg font-medium text-white">
+                    <p className="text-md md:text-lg font-medium text-white">
                       {item.title}
                     </p>
-                    <p className="text-lg text-neutral-400 leading-relaxed">
+                    <p className=" text-sm md:text-lg text-neutral-400 leading-relaxed">
                       {item.description}
                     </p>
                   </div>
