@@ -5,67 +5,152 @@ export const skillSections = [
     title: "Frontend",
     glowLight: "bg-blue-500/30",
     borderHover: "group-hover:border-blue-500/50",
-    shadowHover:
-      "group-hover:shadow-[0_0_30px_-5px_rgba(59,130,246,0.4)]",
+    shadowHover: "group-hover:shadow-[0_0_30px_-5px_rgba(59,130,246,0.4)]",
     skills: [
-      { name: "React", description: "UI Library", image: "https://cdn.simpleicons.org/react/61DAFB" },
-      { name: "Next.js", description: "React Framework", image: "https://cdn.simpleicons.org/nextdotjs/white" },
-      { name: "Tailwind CSS", description: "Utility-first CSS", image: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
-      { name: "TypeScript", description: "Typed JavaScript", image: "https://cdn.simpleicons.org/typescript/3178C6" },
-      { name: "shadcn/ui", description: "UI Components", image: "https://cdn.simpleicons.org/shadcnui/white" },
+      {
+        name: "React",
+        description: "UI Library",
+        image: "https://cdn.simpleicons.org/react/61DAFB",
+      },
+      {
+        name: "Next.js",
+        description: "React Framework",
+        image: "https://cdn.simpleicons.org/nextdotjs/white",
+      },
+      {
+        name: "Tailwind CSS",
+        description: "Utility-first CSS",
+        image: "https://cdn.simpleicons.org/tailwindcss/06B6D4",
+      },
+      {
+        name: "TypeScript",
+        description: "Typed JavaScript",
+        image: "https://cdn.simpleicons.org/typescript/3178C6",
+      },
+      {
+        name: "shadcn/ui",
+        description: "UI Components",
+        image: "https://cdn.simpleicons.org/shadcnui/white",
+      },
     ],
   },
   {
     title: "Backend",
     glowLight: "bg-emerald-500/30",
     borderHover: "group-hover:border-emerald-500/50",
-    shadowHover:
-      "group-hover:shadow-[0_0_30px_-5px_rgba(16,185,129,0.4)]",
+    shadowHover: "group-hover:shadow-[0_0_30px_-5px_rgba(16,185,129,0.4)]",
     skills: [
-      { name: "Node.js", description: "JavaScript Runtime", image: "https://cdn.simpleicons.org/nodedotjs/5FA04E" },
-      { name: "Express.js", description: "Web Framework", image: "https://cdn.simpleicons.org/express/white" },
-      { name: "REST APIs", description: "Architecture", icon: Network, color: "text-emerald-400" },
-      { name: "JWT", description: "Authentication", image: "https://cdn.simpleicons.org/jsonwebtokens/white" },
-      { name: "bcrypt", description: "Password Hashing", icon: Shield, color: "text-neutral-300" },
+      {
+        name: "Node.js",
+        description: "JavaScript Runtime",
+        image: "https://cdn.simpleicons.org/nodedotjs/5FA04E",
+      },
+      {
+        name: "Express.js",
+        description: "Web Framework",
+        image: "https://cdn.simpleicons.org/express/white",
+      },
+      {
+        name: "REST APIs",
+        description: "Architecture",
+        icon: Network,
+        color: "text-emerald-400",
+      },
+      {
+        name: "JWT",
+        description: "Authentication",
+        image: "https://cdn.simpleicons.org/jsonwebtokens/white",
+      },
+      {
+        name: "bcrypt",
+        description: "Password Hashing",
+        icon: Shield,
+        color: "text-neutral-300",
+      },
     ],
   },
   {
     title: "Database",
     glowLight: "bg-indigo-500/30",
     borderHover: "group-hover:border-indigo-500/50",
-    shadowHover:
-      "group-hover:shadow-[0_0_30px_-5px_rgba(99,102,241,0.4)]",
+    shadowHover: "group-hover:shadow-[0_0_30px_-5px_rgba(99,102,241,0.4)]",
     skills: [
-      { name: "MongoDB", description: "NoSQL Database", image: "https://cdn.simpleicons.org/mongodb/47A248" },
-      { name: "PostgreSQL", description: "Relational DB", image: "https://cdn.simpleicons.org/postgresql/4169E1" },
-      { name: "MySQL", description: "Relational DB", image: "https://cdn.simpleicons.org/mysql/4479A1" },
+      {
+        name: "MongoDB",
+        description: "NoSQL Database",
+        image: "https://cdn.simpleicons.org/mongodb/47A248",
+      },
+      {
+        name: "PostgreSQL",
+        description: "Relational DB",
+        image: "https://cdn.simpleicons.org/postgresql/4169E1",
+      },
+      {
+        name: "MySQL",
+        description: "Relational DB",
+        image: "https://cdn.simpleicons.org/mysql/4479A1",
+      },
     ],
   },
   {
     title: "Programming",
     glowLight: "bg-purple-500/30",
     borderHover: "group-hover:border-purple-500/50",
-    shadowHover:
-      "group-hover:shadow-[0_0_30px_-5px_rgba(168,85,247,0.4)]",
+    shadowHover: "group-hover:shadow-[0_0_30px_-5px_rgba(168,85,247,0.4)]",
     skills: [
-      { name: "C++", description: "Systems Programming", image: "https://cdn.simpleicons.org/cplusplus/00599C" },
-      { name: "Python", description: "General Purpose", image: "https://cdn.simpleicons.org/python/3776AB" },
-      { name: "JavaScript", description: "Web Development", image: "https://cdn.simpleicons.org/javascript/F7DF1E" },
+      {
+        name: "C++",
+        description: "Systems Programming",
+        image: "https://cdn.simpleicons.org/cplusplus/00599C",
+      },
+      {
+        name: "Python",
+        description: "General Purpose",
+        image: "https://cdn.simpleicons.org/python/3776AB",
+      },
+      {
+        name: "JavaScript",
+        description: "Web Development",
+        image: "https://cdn.simpleicons.org/javascript/F7DF1E",
+      },
     ],
   },
   {
     title: "Version Control & Deployment",
     glowLight: "bg-cyan-500/30",
     borderHover: "group-hover:border-cyan-500/50",
-    shadowHover:
-      "group-hover:shadow-[0_0_30px_-5px_rgba(6,182,212,0.4)]",
+    shadowHover: "group-hover:shadow-[0_0_30px_-5px_rgba(6,182,212,0.4)]",
     skills: [
-      { name: "Git", description: "Version Control", image: "https://cdn.simpleicons.org/git/F05032" },
-      { name: "GitHub", description: "Code Hosting", image: "https://cdn.simpleicons.org/github/white" },
-      { name: "Vercel", description: "Frontend Cloud", image: "https://cdn.simpleicons.org/vercel/white" },
-      { name: "Netlify", description: "Web Hosting", image: "https://cdn.simpleicons.org/netlify/00C7B7" },
-      { name: "Render", description: "Cloud Hosting", image: "https://cdn.simpleicons.org/render/46E3B7" },
-      { name: "Postman", description: "API Testing", image: "https://cdn.simpleicons.org/postman/FF6C37" },
+      {
+        name: "Git",
+        description: "Version Control",
+        image: "https://cdn.simpleicons.org/git/F05032",
+      },
+      {
+        name: "GitHub",
+        description: "Code Hosting",
+        image: "https://cdn.simpleicons.org/github/white",
+      },
+      {
+        name: "Vercel",
+        description: "Frontend Cloud",
+        image: "https://cdn.simpleicons.org/vercel/white",
+      },
+      {
+        name: "Netlify",
+        description: "Web Hosting",
+        image: "https://cdn.simpleicons.org/netlify/00C7B7",
+      },
+      {
+        name: "Render",
+        description: "Cloud Hosting",
+        image: "https://cdn.simpleicons.org/render/46E3B7",
+      },
+      {
+        name: "Postman",
+        description: "API Testing",
+        image: "https://cdn.simpleicons.org/postman/FF6C37",
+      },
     ],
   },
 ];
@@ -124,6 +209,127 @@ export const techStack = [
 export const projects = [
   {
     id: 1,
+    title: "BulletCraft",
+    color: "from-blue-500/20 to-cyan-500/20 border-blue-500/30",
+    glow: "bg-blue-500/20",
+
+    description: [
+      {
+        id: 1,
+        title: "ATS-Optimized Bullets",
+        description:
+          "Convert raw project descriptions into achievement-focused resume bullet points using the STAR methodology.",
+      },
+      {
+        id: 2,
+        title: "LinkedIn Post Generator",
+        description:
+          "Generate professional LinkedIn project announcements with structured formatting and hashtags.",
+      },
+      {
+        id: 3,
+        title: "AI Content Enhancement",
+        description:
+          "Refine technical descriptions into recruiter-friendly and impact-driven achievements.",
+      },
+      {
+        id: 4,
+        title: "One-Click Copy Actions",
+        description:
+          "Instantly copy generated resume bullets and LinkedIn content with interactive controls.",
+      },
+      {
+        id: 5,
+        title: "Responsive SaaS Experience",
+        description:
+          "Modern interface with animations, loading states, and optimized layouts across all devices.",
+      },
+    ],
+
+    image: "/bulletCraft.png",
+
+    tech: [
+      { name: "Next.js", logo: "https://cdn.simpleicons.org/nextdotjs/white" },
+      {
+        name: "TypeScript",
+        logo: "https://cdn.simpleicons.org/typescript/3178C6",
+      },
+      {
+        name: "Tailwind",
+        logo: "https://cdn.simpleicons.org/tailwindcss/06B6D4",
+      },
+      { name: "Gemini", logo: "https://cdn.simpleicons.org/google/4285F4" },
+      {
+        name: "Vercel AI SDK",
+        logo: "https://cdn.simpleicons.org/vercel/white",
+      },
+      { name: "Zod", logo: "https://cdn.simpleicons.org/zod/3E67B1" },
+    ],
+
+    liveUrl: "https://bullet-craft.vercel.app/",
+    githubUrl: "https://github.com/Himanshuazad03/BulletCraft",
+  },
+  {
+    id: 2,
+    title: "InterviewIQ",
+    color: "from-violet-500/20 to-purple-500/20 border-violet-500/30",
+    glow: "bg-violet-500/20",
+
+    description: [
+      {
+        id: 1,
+        title: "AI Mock Interviews",
+        description:
+          "Generate role-specific interview questions based on job role, topics, difficulty, and experience level.",
+      },
+      {
+        id: 2,
+        title: "Voice & Text Responses",
+        description:
+          "Answer interview questions using speech-to-text or traditional text input.",
+      },
+      {
+        id: 3,
+        title: "AI Performance Feedback",
+        description:
+          "Receive detailed feedback with scores, strengths, weaknesses, and actionable recommendations.",
+      },
+      {
+        id: 4,
+        title: "Analytics Dashboard",
+        description:
+          "Track interview performance trends with visual charts and progress insights.",
+      },
+      {
+        id: 5,
+        title: "Interview History",
+        description:
+          "Review previous interview attempts, compare scores, and monitor improvement over time.",
+      },
+    ],
+
+    image: "/interviewIq.png",
+
+    tech: [
+      { name: "Next.js", logo: "https://cdn.simpleicons.org/nextdotjs/white" },
+      {
+        name: "PostgreSQL",
+        logo: "https://cdn.simpleicons.org/postgresql/4169E1",
+      },
+      { name: "Prisma", logo: "https://cdn.simpleicons.org/prisma/2D3748" },
+      { name: "Clerk", logo: "https://cdn.simpleicons.org/clerk/6C47FF" },
+      { name: "Gemini", logo: "https://cdn.simpleicons.org/google/4285F4" },
+      {
+        name: "Tailwind",
+        logo: "https://cdn.simpleicons.org/tailwindcss/06B6D4",
+      },
+    ],
+
+    liveUrl: "https://interview-iq-black.vercel.app/",
+    githubUrl: "https://github.com/Himanshuazad03/InterviewIQ",
+  },
+  {
+    id: 3,
     title: "FinSight",
     color: "from-emerald-500/20 to-teal-500/20 border-emerald-500/30",
     glow: "bg-emerald-500/20",
@@ -166,7 +372,10 @@ export const projects = [
     tech: [
       { name: "Next.js", logo: "https://cdn.simpleicons.org/nextdotjs/white" },
       { name: "MongoDB", logo: "https://cdn.simpleicons.org/mongodb/47A248" },
-      { name: "Tailwind", logo: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
+      {
+        name: "Tailwind",
+        logo: "https://cdn.simpleicons.org/tailwindcss/06B6D4",
+      },
       { name: "Inngest", logo: "https://cdn.simpleicons.org/inngest/6366F1" },
       { name: "Shadcn", logo: "https://cdn.simpleicons.org/shadcnui/white" },
     ],
@@ -177,7 +386,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 4,
     title: "SyncUp",
     color: "from-blue-500/20 to-indigo-500/20 border-blue-500/30",
     glow: "bg-blue-500/20",
@@ -222,7 +431,10 @@ export const projects = [
       { name: "Node.js", logo: "https://cdn.simpleicons.org/nodedotjs/5FA04E" },
       { name: "Express", logo: "https://cdn.simpleicons.org/express/white" },
       { name: "MongoDB", logo: "https://cdn.simpleicons.org/mongodb/47A248" },
-      { name: "Socket.IO", logo: "https://cdn.simpleicons.org/socketdotio/white" },
+      {
+        name: "Socket.IO",
+        logo: "https://cdn.simpleicons.org/socketdotio/white",
+      },
     ],
 
     liveUrl: "https://syncup-chat-app.vercel.app/",
@@ -230,7 +442,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 5,
     title: "DevBlogs",
     color: "from-orange-500/20 to-red-500/20 border-orange-500/30",
     glow: "bg-orange-500/20",
@@ -272,8 +484,14 @@ export const projects = [
 
     tech: [
       { name: "Next.js", logo: "https://cdn.simpleicons.org/nextdotjs/white" },
-      { name: "PostgreSQL", logo: "https://cdn.simpleicons.org/postgresql/4169E1" },
-      { name: "Tailwind", logo: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
+      {
+        name: "PostgreSQL",
+        logo: "https://cdn.simpleicons.org/postgresql/4169E1",
+      },
+      {
+        name: "Tailwind",
+        logo: "https://cdn.simpleicons.org/tailwindcss/06B6D4",
+      },
       { name: "Shadcn", logo: "https://cdn.simpleicons.org/shadcnui/white" },
     ],
 
@@ -282,7 +500,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 6,
     title: "Placement Predictor",
     color: "from-purple-500/20 to-fuchsia-500/20 border-purple-500/30",
     glow: "bg-purple-500/20",
@@ -332,7 +550,6 @@ export const projects = [
       { name: "MongoDB", logo: "https://cdn.simpleicons.org/mongodb/47A248" },
     ],
 
-    githubUrl:
-      "https://github.com/Himanshuazad03/Placement-Predictor",
+    githubUrl: "https://github.com/Himanshuazad03/Placement-Predictor",
   },
 ];
